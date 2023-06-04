@@ -3,8 +3,8 @@ import bg from "./image/bg.jpg";
 import "./App.css";
 import NavBars from "./components/NavBars";
 import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
-import About from "./pages/About";
 import Homepage from "./pages/Homepage";
+import Buttom from "./components/bottom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +21,7 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="/about" element={<Homepage />} />
           </Routes>
+          <Buttom />
         </BrowserRouter>
       </div>
     </>
