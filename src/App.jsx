@@ -5,6 +5,8 @@ import NavBars from "./components/NavBars";
 import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Buttom from "./components/bottom";
+import Pricing from "./pages/Pricing";
+import About from "./pages/About";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,7 +21,9 @@ function App() {
           <NavBars />
           <Routes>
             <Route index element={<Homepage />} />
-            <Route path="/about" element={<Homepage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/pricing" element={<Pricing />}></Route>
+            <Route path="/contact" element={""}></Route>
           </Routes>
           <Buttom />
         </BrowserRouter>
