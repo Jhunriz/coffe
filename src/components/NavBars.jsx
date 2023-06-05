@@ -11,7 +11,7 @@ export default function NavBar() {
 
   return (
     <div>
-      <nav className="bg-gray-900 border-transparent bg-opacity-30">
+      <nav className="sticky top-0 bg-gray-900 border-transparent bg-opacity-30">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img src={image} className="h-8 mr-3" alt="Flowbite Logo" />
