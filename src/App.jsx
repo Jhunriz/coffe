@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage";
 import Buttom from "./components/bottom";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,7 +24,7 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="/about" element={<About />} />
             <Route path="/pricing" element={<Pricing />}></Route>
-            <Route path="/contact" element={""}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
           </Routes>
           <Buttom />
         </BrowserRouter>
