@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../image/cofee.png";
 
-// sanatamana
+sanatamana;
 
 export default function Footer() {
   return (
