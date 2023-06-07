@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../image/cofee.png";
 
-export default function Bottom() {
+export default function Footer() {
   return (
     <div>
       <footer className="sticky bottom-0 w-full bg-white dark:bg-gray-950">
