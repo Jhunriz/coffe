@@ -1,8 +1,6 @@
 import React from "react";
 import image from "../image/cofee.png";
 
-sanatamana;
-
 export default function Footer() {
   return (
     <div>
