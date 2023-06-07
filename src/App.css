@@ -2,11 +2,15 @@
 
 :root {
   text-align: center;
-  color: white;
+  color: #f8f6f4;
   font-family: "Montserrat", sans-serif;
   background-color: #030712;
 }
 
 #form {
   background-color: #fff;
+}
+
+#gradiant {
+  background: linear-gradient(to bottom, #000000, #8b4513);
 }

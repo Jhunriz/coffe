@@ -1,10 +1,10 @@
 import React from "react";
 import image from "../image/cofee.png";
 
-export default function bottom() {
+export default function Bottom() {
   return (
     <div>
-      <footer className="fixed bottom-0 w-full bg-white dark:bg-gray-950">
+      <footer className="sticky bottom-0 w-full bg-white dark:bg-gray-950">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -15,7 +15,7 @@ export default function bottom() {
                 </span>
               </a>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-6">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Follow us
@@ -59,7 +59,7 @@ export default function bottom() {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="flex flex-col items-center sm:flex-row sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
               <a href="https://flowbite.com/" className="hover:underline">
